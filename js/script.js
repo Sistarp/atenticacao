@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Verifica as credenciais (substitua pelos seus próprios dados)
         if (verificarCredenciais(link, senha)) {
-            window.location.href = 'https://www.sistarp.hipershops.com.br';
+            window.location.href = https://sistarp.hipershops.com.br/;
         } else {
             alert('Acesso negado. Verifique suas credenciais.');
         }

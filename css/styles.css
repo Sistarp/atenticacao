@@ -54,4 +54,67 @@ body {
   background: linear-gradient(to top, #008000, #39ff14);
   color: #000;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 1); /* Adiciona uma sombra */
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+  background-image: url('../media/fundo.png'); /* Substitua pelo caminho real da sua imagem */
+  background-size: cover; /* Para cobrir toda a área do corpo */
+  background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+  background-attachment: fixed; /* Para manter a imagem fixa enquanto rola a página */
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: lightblue; /* Cor de fundo da página */
   }
+  
+  .container {
+    max-width: 100%; /* Largura máxima do conteúdo */
+    padding: 10px;
+    background: #f3b6b6;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 50%; /* Define a posição vertical no meio */
+    left: 50%; /* Define a posição horizontal no meio */
+    transform: translate(-50%, -50%); /* Move o elemento de volta para o centro */
+  }
+
+  #user {
+  color: #
+  }
+
+  #link {
+    background-color: #f2f2f2; /* Substitua pela cor desejada */
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+  #senha {
+    background-color: #f2f2f2; /* Substitua pela cor desejada */
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+  #catalogo {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  background: linear-gradient(to top, #008000, #39ff14);
+  color: #000;
+  }
+
+  #catalogo:hover {
+  background: linear-gradient(to top, #008000, #39ff14);
+  color: #000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 1); /* Adiciona uma sombra */
+  }
+}
